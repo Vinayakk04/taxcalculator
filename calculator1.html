@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tax Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <h2> Salary Tax Calculator</h2> 
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+        <label for="salary">Salary (in INR):</label>
+        <input type="number" id="salary" placeholder="Enter your annual salary">
+        <br><br>
+        <label for="da">DA (%) :</label>
+        <input type="number" id="da" placeholder="Enter DA percentage">
+        <br><br>
+        <label for="hra">HRA (%) :</label>
+        <input type="number" id="hra" placeholder="Enter HRA percentage">
+        <br><br>
+        <label for="ta">TA (%) :</label>
+        <input type="number" id="ta" placeholder="Enter TA percentage">
+        <br><br>
+        <button id="calculateButton">Calculate Tax</button>
+        <br><br>
+        <div id="result">
+            <h3>Salary Tax Calculation:</h3>
+            <p>Total Income: <span id="totalIncome"></span></p>
+            <p>Tax Payable: <span id="incomeTax"></span></p>
+            <p>Salary after tax deduction: <span id="aftertaxincome"></span></p>
+        </div>
+    </div>
+
+</body>
+</html>
