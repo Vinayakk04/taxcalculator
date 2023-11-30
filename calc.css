@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18pt ;
+    background-color:rgb(0, 179, 255);
+}
+
+#calculator {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    background: rgba(2, 236, 248, 0);
+    height: 864px;
+}
+#gender{
+    font-size:15px;
+}
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+#calculateButton {
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 251, 251);
+    border: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+}
